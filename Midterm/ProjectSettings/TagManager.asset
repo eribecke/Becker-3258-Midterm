@@ -7,6 +7,7 @@ TagManager:
   - Collectable
   - Switch
   - Ammo
+  - Trap
   layers:
   - Default
   - TransparentFX
