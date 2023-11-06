@@ -6055,10 +6055,11 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 9fb4159c20838eb44b7579018abb3f81, type: 2}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 575182343}
+        m_TargetAssemblyTypeName: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+          Unity.VisualScripting.Flow
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9211,6 +9212,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1109358660}
   m_LocalEulerAnglesHint: {x: 20.084, y: 0, z: 0}
+--- !u!1 &1004969412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4444521670541388747, guid: 874805bb829fabd4da6c04edeeeea26d, type: 3}
+  m_PrefabInstance: {fileID: 1447059568}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1004969416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8754811521160218375, guid: 874805bb829fabd4da6c04edeeeea26d, type: 3}
@@ -32714,9 +32720,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DialoguePanel","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"npc","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1943457410}
+    - {fileID: 1109358653}
+    - {fileID: 1004969412}
 --- !u!4 &2071361769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6edd7d0819ec844695bf17c9f58ed12, type: 3}
