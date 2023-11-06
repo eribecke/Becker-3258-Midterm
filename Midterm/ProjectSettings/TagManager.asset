@@ -9,6 +9,7 @@ TagManager:
   - Ammo
   - Trap
   - enemy
+  - npc
   layers:
   - Default
   - TransparentFX
