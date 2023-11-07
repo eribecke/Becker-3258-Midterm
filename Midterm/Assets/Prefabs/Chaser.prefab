@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7242025980035722602}
   - component: {fileID: 583378760187033916}
   - component: {fileID: 6364770415238693925}
-  - component: {fileID: 5678034740689354057}
+  - component: {fileID: 3120051849445509989}
   m_Layer: 0
   m_Name: Chaser
   m_TagString: enemy
@@ -165,7 +165,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: a1c1a2481c518944796b95f44734d63c, type: 2}
---- !u!114 &5678034740689354057
+--- !u!114 &3120051849445509989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,4 +180,4 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 9435a35dbba73ab4aa951a4948295ef9, type: 2}
+    - {fileID: 11400000, guid: aa08c1a6eebb2a9488b447123c7e2dd2, type: 2}
